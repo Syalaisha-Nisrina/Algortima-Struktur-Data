@@ -1,15 +1,38 @@
 # <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
 <p align="center">Syalaisha Nisrina Anataya</p>
+
 ## Dasar Teori
 Tipe   data   adalah   klasifikasi   data   yang   memberitahu   compiler   atau   interpreter bagaimana   programmer   berniat   untuk   menggunakan   data. [1]
 
 ### 1. Tipe Data Primitif
-Tipe data primitif merupakan elemen dasar penyusun data dalam pemrograman. Tipe data ini tidak dapat dipecah lagi menjadi unit yang lebih kecil.
-
+Jenis data dasar yang disediakan oleh bahasa pemrograman untuk mewakili nilai-nilai sederhana seperti bilangan, karakter, dan nilai logika. Tipe data ini tidak dapat diubah atau dipecah menjadi bagian yang lebih kecil.
+Beberapa yang termasuk tipe data primitif :
+1. Bilangan Bulat
+   - short: Menyimpan nilai bilangan bulat pendek yang ukurannya 2 byte [2]
+   - int: Menyimpan nilai bilangan bulat yang ukurannya 4 byte [3]
+   - long: Menyimpan nilai bilangan bulat panjang yang ukurannya 4 atau 8 byte [4]
+3. Bilangan Pecahan
+   - float: Menyimpan nilai bilangan pecahan presisi tunggal. Ukurannya 4 byte dan memiliki presisi sekitar 7 digit. [2]
+   - double: Menyimpan nilai bilangan pecahan presisi ganda. Ukurannya 8 byte dan memiliki presisi sekitar 15 digit.[3]
+5. Karakter
+   - char: Menyimpan nilai karakter tunggal. Ukurannya 1 byte dan dapat menyimpan nilai ASCII dari 0 hingga 127. [5]
+7. Nilai Logika
+   - bool: Menyimpan nilai logika TRUE atau FALSE. Ukurannya 1 byte.[2]
+     
 ### 2. Tipe Data Abstrak
+Tipe data abstrak adalah model matematika yang mendefinisikan sekumpulan nilai dan operasi yang dapat dilakukan pada nilai-nilai tersebut. TDA tidak menentukan bagaimana nilai-nilai tersebut direpresentasikan atau bagaimana operasi tersebut diimplementasikan[6] TDA memungkinkan programmer untuk membuat program yang lebih modular, efisien, aman, dan skalabel.
 
 ### 3. Tipe Data Koleksi
+Tipe data koleksi adalah struktur data yang memungkinkan penyimpanan sekumpulan data dalam satu variabel. Berbeda dengan tipe data dasar yang hanya mampu menampung satu nilai, tipe data koleksi dapat menampung banyak nilai dengan berbagai tipe data.
 
+Contoh tipe data koleksi : 
+- Array: Sekelompok elemen dengan tipe data yang sama.
+- Vector: Wadah dinamis yang dapat diubah, mirip dengan array, tetapi dapat diubah ukurannya.
+- List: Wadah dinamis yang dapat diubah, mirip dengan vector, tetapi menawarkan beberapa operasi tambahan.
+- Set: Wadah yang menyimpan elemen unik dan tidak terurut.
+- Map: Wadah yang menyimpan pasangan key-nilai yang unik.
+
+Keuntungan dari penggunaan tipe data kolektif adalah efisien karena dapat menyimpan ekumpulan data dalam satu variabel dapat menghemat memori dan meningkatkan kinerja [7]. Selain itu juga mempermudah dalam pengorganisasian dan pengelolaan data, serta mendukung berbagai operasi data, seperti penambahan, penghapusan, dan pencarian[7].
 
 ## Guided 
 
@@ -200,6 +223,7 @@ int main() {
     return 0;
 }
 ```
+Kode diatas menunjukkan bagaimana struct dan class dapat digunakan untuk mendefinisikan struktur data dan fungsi secara bersamaan. Struct `Mahasiswa` mendefinisikan sebuah struct bernama Mahasiswa dengan dua variabel anggota yaitu nama (bertipe string) dan umur (bertipe int). Class `Universitas` mendefinisikan sebuah class bernama Universitas dengan satu fungsi publik yaitu tampilkanData(Mahasiswa m) yang dapat digunakan untuk menampilkan informasi pada Struct `Mahasiswa` 
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
 ```C++
@@ -235,12 +259,25 @@ int main() {
 ```
 Kode program ini salah satucontoh penggunaan map untuk menyimpan data nama-nama buah dan warnanya, serta fungsi `to_upper` untuk mengubah string menjadi huruf kapital. Program menyertakan file header yaitu include <map> dan include <cctype> untuk mendefinisikan fungsi `to_upper` dan menggunakan map. Kemudian, program membuat map "fruits" yang menyimpan pasangan key-value, di mana key adalah nama buah dan value adalah warna buah. Data ditambahkan ke map, dan perulangan dilakukan pada setiap elemen map. Di dalam perulangan, fungsi `to_upper` digunakan untuk mengubah key (nama buah) menjadi huruf kapital sebelum dicetak, diikuti dengan tanda ":" dan value (warna buah).
 
-Array dan Map adalah dua struktur data yang memiliki perbedaan dalam cara penyimpanan dan pengaksesan data. **Array** adalah kumpulan elemen yang disimpan secara berurutan di memori[2]. Setiap elemen memiliki indeks numerik, dimulai dari 0, yang digunakan untuk mengaksesnya[2]. Array cocok untuk menyimpan data yang bertipe sama dan jumlahnya tetap, namun kurang fleksibel jika perlu menambah atau menghapus elemen di tengah karena harus memindahkan elemen lain[2].
+Array dan Map adalah dua struktur data yang memiliki perbedaan dalam cara penyimpanan dan pengaksesan data. **Array** adalah kumpulan elemen yang disimpan secara berurutan di memori[8]. Setiap elemen memiliki indeks numerik, dimulai dari 0, yang digunakan untuk mengaksesnya[8]. Array cocok untuk menyimpan data yang bertipe sama dan jumlahnya tetap, namun kurang fleksibel jika perlu menambah atau menghapus elemen di tengah karena harus memindahkan elemen lain[8].
 
-**Map**, di sisi lain, adalah kumpulan pasangan key-value yang tidak memiliki urutan tetap[2]. Key bisa berupa tipe data apapun, seperti string atau number, dan digunakan untuk mengakses value yang terkait[2]. Map memudahkan pencarian dan pembaruan data karena Anda bisa langsung mengakses elemen dengan key-nya, membuatnya ideal untuk data yang sering berubah atau tidak memiliki jumlah yang tetap[2].
+**Map**, di sisi lain, adalah kumpulan pasangan key-value yang tidak memiliki urutan tetap[8]. Key bisa berupa tipe data apapun, seperti string atau number, dan digunakan untuk mengakses value yang terkait[8]. Map memudahkan pencarian dan pembaruan data karena Anda bisa langsung mengakses elemen dengan key-nya, membuatnya ideal untuk data yang sering berubah atau tidak memiliki jumlah yang tetap[8].
 
 Secara singkat, Array adalah pilihan yang baik untuk kumpulan data yang sederhana dan statis, sedangkan Map lebih cocok untuk data yang kompleks.
 
 ## Referensi
 [1] Wimawan, R. B. (2019, 11 April). Tipe Data Sederhana. https://journals.sagepub.com/doi/10.1177/1535370216643772.
-[2] M.T. Goodrich, R. Tamassia, dan M.H. Goldwasser, Data Structures and Algorithms in Java, 6th ed. [Online]. Available: Wiley, ISBN: 978-1-119-27802-3, March 2016
+
+[2] H. Schildt, C++: The Complete Reference. New York, NY, USA: McGraw-Hill, 2017.
+
+[3] S.B. Lippman, J. Lajoie, dan B.E. Moo, C++ Primer, 5th ed. Boston, MA, USA: Addison-Wesley, 2012
+
+[4] P. Prinz dan T. Crawford, C++ in a Nutshell. Sebastopol, CA, USA: O’Reilly Media, Inc., 2017
+
+[5] S. Sahoo, C++ Programming: From Beginner to Expert, [Online]. Tersedia: 2020
+
+[6] Cormen, Thomas H., et al. "Algoritma dan Struktur Data." Edisi ke-4. MIT Press, 2020.
+
+[7] C++ STL Tutorial: http://repository.unika.ac.id/13294/5/12.60.0248%20Christina%20Thiveny%20Putrianti%
+
+[8]M.T. Goodrich, R. Tamassia, dan M.H. Goldwasser, Data Structures and Algorithms in Java, 6th ed. [Online]. Available: Wiley, ISBN: 978-1-119-27802-3, March 2016
