@@ -1,4 +1,4 @@
-# Repository Praktikum Algoritma dan Struktur Data
+## Repository Praktikum Algoritma dan Struktur Data
 <pre>
 Nama	: Syalaisha Nisrina Anataya
 NIM	: 2311110032
