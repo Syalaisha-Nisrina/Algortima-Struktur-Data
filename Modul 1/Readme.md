@@ -265,6 +265,9 @@ Array dan Map adalah dua struktur data yang memiliki perbedaan dalam cara penyim
 
 Secara singkat, Array adalah pilihan yang baik untuk kumpulan data yang sederhana dan statis, sedangkan Map lebih cocok untuk data yang kompleks.
 
+## Kesimpulan 
+Pada modul 1 ini digunakan untuk memahami dan menggunakan berbagai jenis tipe data dalam bahasa C++. Tipe data meiliki 3 jenis utama: primitif, abstrak, dan koleksi. Tipe data primitif seperti int, float, dan char disediakan oleh sistem. Tipe data abstrak, dibentuk programmer, dapat menampung berbagai jenis data. Sedangkan tipe data koleksi digunakan untuk mengelompokkan dan menyimpan banyak nilai/objek. Dimulai dengan menggunakan tipe data primitif dalam program dengan minimal dua fungsi. Kemudian, Anda akan mempelajari dan menggunakan fungsi class dan struct serta fungsi map dalam program.
+
 ## Referensi
 [1] Wimawan, R. B. (2019, 11 April). Tipe Data Sederhana. https://journals.sagepub.com/doi/10.1177/1535370216643772.
 
