@@ -36,10 +36,10 @@ using namespace std;
         {
             for (int z = 0; z < 3; z++)
             {
-                cout << arr[x][y][z]  << ends ;
+                cout << arr[x][y][z]  << "  " ;
             }
-            cout << ends;
+            cout << endl;
         }
-        cout << ends;
+        cout << endl;
     }
  }

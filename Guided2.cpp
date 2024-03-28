@@ -7,7 +7,7 @@ int main () {
     cin >> a;
 
     if(a <= 0) {
-        cout << " Panjang array harua lebih besar dari 0." << endl;
+        cout << "Panjang array harua lebih besar dari 0." << endl;
         return 1; 
     }
     int array [a];
