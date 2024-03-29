@@ -264,7 +264,7 @@ int main() {
 ```
 Kode program `cout << "Masukkan jumlah elemen dalam array: ";` bertujuan untuk meminta pengguna memasukkan jumlah elemen array, yang kemudian disimpan dalam `cin >> n;`. Setelah itu, pengguna diminta untuk memasukkan elemen-elemen array, yang akan dibaca oleh loop `for` pertama. Selanjutnya, `int max = arr[0], min = arr[0], sum = 0;`  digunakan untuk mendeklarasikan dan menginisialisasi variabel max, min, dan sum, di mana max dan min diinisialisasi dengan elemen pertama dari array. Loop `for` kedua kemudian digunakan untuk menghitung nilai maksimum, minimum, dan total (sum) dari elemen-elemen array, yang nantinya akan dicetak ke layar.
 ### Output : 
-
+https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%202/Output%20Ungaided2.png
 ## Kesimpulan 
 Dari Modul 2 tentang Array ini, dapat diambil beberapa kesimpulan yaitu:
 
