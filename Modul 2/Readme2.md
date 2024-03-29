@@ -224,6 +224,8 @@ int main() {
 }
 ```
 Kode ini akan membuat array tiga dimensi berdasarkan ukuran yang diinputkan, mengisi array tersebut dengan elemen yang diinputkan juga oleh pengguna, dan kemudian mencetaknya. 
+### Output : 
+![unguided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%202/Output%20Ungaided2.png)
 
 ### 3. Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!
 
@@ -263,8 +265,7 @@ int main() {
 }
 ```
 Kode program `cout << "Masukkan jumlah elemen dalam array: ";` bertujuan untuk meminta pengguna memasukkan jumlah elemen array, yang kemudian disimpan dalam `cin >> n;`. Setelah itu, pengguna diminta untuk memasukkan elemen-elemen array, yang akan dibaca oleh loop `for` pertama. Selanjutnya, `int max = arr[0], min = arr[0], sum = 0;`  digunakan untuk mendeklarasikan dan menginisialisasi variabel max, min, dan sum, di mana max dan min diinisialisasi dengan elemen pertama dari array. Loop `for` kedua kemudian digunakan untuk menghitung nilai maksimum, minimum, dan total (sum) dari elemen-elemen array, yang nantinya akan dicetak ke layar.
-### Output : 
-https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%202/Output%20Ungaided2.png
+
 ## Kesimpulan 
 Dari Modul 2 tentang Array ini, dapat diambil beberapa kesimpulan yaitu:
 
@@ -273,7 +274,8 @@ Dari Modul 2 tentang Array ini, dapat diambil beberapa kesimpulan yaitu:
 3. Setiap elemen dalam Array memiliki indeks yang digunakan untuk mengakses nilainya, dimulai dari 0 hingga jumlah elemen dikurangi satu.
 4. Implementasi Array dalam program memungkinkan pengguna untuk menyimpan dan mengelola data secara efisien.
 5. Melalui contoh program yang disediakan dalam modul, kita dapat belajar cara mendeklarasikan, mengisi, dan mengakses elemen dalam Array dengan berbagai dimensi.
-
+### Output : 
+![unguided3](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%202/Output%20Ungaided3.png)
 
 ## Referensi
 [1] Ariyus, D. Pemrograman Dasar C++. Bandung: Informatika, 2017.
