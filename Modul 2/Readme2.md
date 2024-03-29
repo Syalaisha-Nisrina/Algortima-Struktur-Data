@@ -262,7 +262,8 @@ int main() {
    return 0;
 }
 ```
-Kode program `cout << "Masukkan jumlah elemen dalam array: ";` bertujuan untuk meminta pengguna memasukkan jumlah elemen array, yang kemudian disimpan dalam ``cin >> n;`. Setelah itu, pengguna diminta untuk memasukkan elemen-elemen array, yang akan dibaca oleh loop `for` pertama. Selanjutnya, `int max = arr[0], min = arr[0], sum = 0;`  digunakan untuk mendeklarasikan dan menginisialisasi variabel max, min, dan sum, di mana max dan min diinisialisasi dengan elemen pertama dari array. Loop `for` kedua kemudian digunakan untuk menghitung nilai maksimum, minimum, dan total (sum) dari elemen-elemen array, yang nantinya akan dicetak ke layar.
+Kode program `cout << "Masukkan jumlah elemen dalam array: ";` bertujuan untuk meminta pengguna memasukkan jumlah elemen array, yang kemudian disimpan dalam `cin >> n;`. Setelah itu, pengguna diminta untuk memasukkan elemen-elemen array, yang akan dibaca oleh loop `for` pertama. Selanjutnya, `int max = arr[0], min = arr[0], sum = 0;`  digunakan untuk mendeklarasikan dan menginisialisasi variabel max, min, dan sum, di mana max dan min diinisialisasi dengan elemen pertama dari array. Loop `for` kedua kemudian digunakan untuk menghitung nilai maksimum, minimum, dan total (sum) dari elemen-elemen array, yang nantinya akan dicetak ke layar.
+### Output : 
 
 ## Kesimpulan 
 Dari Modul 2 tentang Array ini, dapat diambil beberapa kesimpulan yaitu:
@@ -276,8 +277,13 @@ Dari Modul 2 tentang Array ini, dapat diambil beberapa kesimpulan yaitu:
 
 ## Referensi
 [1] Ariyus, D. Pemrograman Dasar C++. Bandung: Informatika, 2017.
+
 [2] Bjarne Stroustrup. (2013). The C++ Programming Language (4th ed.). Addison-Wesley.
+
 [3] Lippman, S. B., & Lajoie, J. (2012). C++ primer (5th ed.). Addison-Wesley.
+
 [4] C++ Array Tutorial: https://www.cplusplus.com/doc/tutorial/arrays/
+
 [5] "A Survey of Multidimensional Array Programming Languages" oleh David B. Shmoys (Journal of Functional Programming, 2002)
+
 [6] "Multidimensional Arrays in C++" oleh Michael S. Miller (C++ Users Journal, 2005)
