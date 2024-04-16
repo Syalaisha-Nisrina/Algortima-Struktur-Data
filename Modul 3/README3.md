@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul Array</h1>
+# <h1 align="center">Laporan Praktikum Modul Sorting</h1>
 <p align="center">Syalaisha Nisrina Anataya</p>
 
 ## Dasar Teori
@@ -77,7 +77,7 @@ Fungsi `print_Array` digunakan untuk mencetak elemen-elemen dalam array yang men
 
 
 #### Output : 
-[gaided1](F:\Semester 1\ALPRO\Code\Praktikum Strukdat\Modul 3\Guided1.png)
+![Guided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Guided1.png)
 
 
 ### 2. Mengurutkan karakter secara descending (dari terbesar hingga terkecil) menggunakan Algoritma Insertion Sort
@@ -125,7 +125,7 @@ Setelah semua elemen array dimasukkan, program akan mencari nilai maksimum dalam
 
 Setelah semua elemen telah dibandingkan, program akan mencetak nilai maksimum dan lokasi (indeks + 1) elemen tersebut dalam array.
 #### Output : 
-[gaided2]( )
+![Guided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Guided2.png)
 
 ## Unguided 
 ### 1. Kelas S1 IF 2016 G memiliki 5 mahasiswa. Pada akhir semester mereka menerima lembar Indeks Prestasi Semester (IPS), masing-masing mahasiswa tersebut memiliki IPS sebagai berikut: {3.8, 2.9, 3.3, 4.0, 2.4}. Buatlah program untuk mengurutkan IPS mahasiswa tersebut dari yang terbesar hingga terkecil dengan menggunakan algoritma Selection Sort! 
@@ -168,7 +168,7 @@ Kode Program ini terdiri dari tiga fungsi utama yaitu descending, printArray, da
 
 Fungsi `printArray(float arr[], int n)` digunakan untuk mencetak elemen-elemen dari array `arr` dengan jumlah elemen n. Kemudian Fungsi `main()` yang merupakan titik masuk program. Di sini, array `ip` berisikan nilai dari IPS. Kemudian, fungsi `descending` dipanggil untuk mengurutkan array ini dalam urutan menurun. Setelah itu, pesan “Urutan IPS dari terbesar ke terkecil” dicetak, diikuti oleh elemen-elemen array yang telah diurutkan. 
 #### Output : 
-[Ungaided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Ungaided1.png)
+![Ungaided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Ungaided1.png)
 
 ### 2. Pak RT memiliki 10 warga dengan nama: siti, situ, sana, ana, ani, caca, cici, dida, dodo, dan dadi. Supaya mudah dalam melakukan pencarian, Pak RT akan mengurutkan nama-nama tersebut sesuai dengan alfabet. Buatlah program untuk membantu Pak RT dengan menggunakan algoritma Bubble Sort!
 ```C++
@@ -210,7 +210,7 @@ int main() {
 ```
 Kode Program ini terdiri dari tiga fungsi utama yaitu `bubble_sort`, `print`, dan `main`. Fungsi `bubble_sort(string arr[], int length)`digunakan untuk mengurutkan array `arr` dengan jumlah elemen `length` dalam urutan menaik (dari kecil ke besar). Dengan menggunakan Bubble Sort fungsi ini berjalan dengan membandingkan setiap pasangan elemen yang berdekatan dan menukarnya jika mereka dalam urutan yang salah. Proses ini diulangi sampai tidak ada lagi elemen yang perlu ditukar. Yang kedua fungsi `print(string arr[], int length)`digunakan untuk mencetak elemen-elemen dari array `arr` dengan jumlah elemen `length`. Setiap elemen dicetak dengan koma `,` sebagai pemisah. Kemudian, fungsi `main()`sebagai titik masuk program. Di sini, array `list_nama` yang berisi nama nama warga. Kemudian, fungsi `bubble_sort` dipanggil untuk mengurutkan array ini dalam urutan menaik. Setelah itu, elemen-elemen array yang telah diurutkan dicetak.
 #### Output : 
-[Ungaided2]( )
+![Ungaided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Ungaided2.png)
 
 ### 3. Buatlah program yang meminta user menginputkan suatu bilangan n dan meminta user untuk menginputkan sejumlah n karakter. Kemudian program akan melakukan sorting secara menaik (ascending) dan menurun (descending)!
 
@@ -282,7 +282,7 @@ int main() {
 ```
 Kode Program ini terdiri dari empat fungsi utama yaitu `prosedur_isi_array`, `ascending`, `descending`, dan `main`. Fungsi `prosedur_isi_array(char a[], int n)`digunakan untuk mengisi array `a` dengan `n`(banyaknya karakter) karakter yang dimasukkan oleh pengguna. Yang ke 2 fungsi `ascending(char a[], int n)`digunakan untuk mengurutkan array `a` dengan jumlah elemen `n` dalam urutan menaik (dari kecil ke besar) dengan menggunakan Insertion Sort. Yang ke 3 fungsi `descending(char a[], int n)` digunakan untuk mengurutkan array `a` dengan jumlah elemen `n`, tetapi dalam urutan menurun (dari besar ke kecil)dengan menggunakan Insertion Sort juga. Yang ke 4 fungsi `print(char a[], int n)`digunakan untuk mencetak elemen-elemen dari array `a` dengan jumlah elemen `n`. Setiap elemen dicetak dengan spasi `" "` sebagai pemisah. Kemudian, fungsi `main()`sebagai  titik masuk program. Pada fungsi ini pengguna diminta untuk memasukkan jumlah data, dan array `karakter` dibuat dengan ukuran tersebut. Kemudian, fungsi `prosedur_isi_array` dipanggil untuk mengisi array ini dengan karakter yang dimasukkan oleh pengguna. Setelah itu, elemen-elemen array dicetak sebelum dan setelah diurutkan dalam urutan menaik dan menurun.
 #### Output : 
-[Ungaided3]( )
+![Ungaided3](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Ungaided3.png)
 
 ## Kesimpulan 
 Dari Modul 3 tentang Array ini, dapat diambil beberapa kesimpulan yaitu:
@@ -296,4 +296,5 @@ Dari Modul 3 tentang Array ini, dapat diambil beberapa kesimpulan yaitu:
  
 ## Referensi
 [1] D. A. Tara et al., “Analisis Kompleksitas Waktu Menggunakan Sorting Algorithm pada Pengaplikasian Fitur Pengurutan Harga dari Terendah dan Tertinggi di Shopee,” Jurnal Potensial, vol. 3, no. 1, pp. 68-80, 2024.
+
 [2] A. Karunanithi, “A Survey, Discussion and Comparison of Sorting Algorithms,” Umeå University, 2014.
