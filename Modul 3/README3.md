@@ -168,7 +168,7 @@ Kode Program ini terdiri dari tiga fungsi utama yaitu descending, printArray, da
 
 Fungsi `printArray(float arr[], int n)` digunakan untuk mencetak elemen-elemen dari array `arr` dengan jumlah elemen n. Kemudian Fungsi `main()` yang merupakan titik masuk program. Di sini, array `ip` berisikan nilai dari IPS. Kemudian, fungsi `descending` dipanggil untuk mengurutkan array ini dalam urutan menurun. Setelah itu, pesan “Urutan IPS dari terbesar ke terkecil” dicetak, diikuti oleh elemen-elemen array yang telah diurutkan. 
 #### Output : 
-[Ungaided1]( )
+[Ungaided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Ungaided1.png)
 
 ### 2. Pak RT memiliki 10 warga dengan nama: siti, situ, sana, ana, ani, caca, cici, dida, dodo, dan dadi. Supaya mudah dalam melakukan pencarian, Pak RT akan mengurutkan nama-nama tersebut sesuai dengan alfabet. Buatlah program untuk membantu Pak RT dengan menggunakan algoritma Bubble Sort!
 ```C++
