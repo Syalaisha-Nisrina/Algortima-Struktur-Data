@@ -52,8 +52,7 @@ Pada awal program dideklarasikan array data dengan ukuran n yang bernilai 10. Ke
 
 Kemudian mengunakan loop `for` untuk melakukan pencarian dengan algoritma sequential searching. Kode melakukan pengecekan terhadap setiap elemen dalam array secara berurutan. Apabila ditemukan elemen yang memiliki nilai sama dengan yang dicari, akan mengubah status `ketemu` menjadi benar dan menghentikan loop dengan menggunakan `break`. 
 #### Output : 
-[gaided1]()
-
+![Guided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Guided1.png)
 
 ### 2. Buatlah sebuah project untuk melakukan pencarian data dengan menggunakan Binary Search
 
