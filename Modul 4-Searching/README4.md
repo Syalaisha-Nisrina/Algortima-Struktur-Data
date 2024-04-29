@@ -52,7 +52,7 @@ Pada awal program dideklarasikan array data dengan ukuran n yang bernilai 10. Ke
 
 Kemudian mengunakan loop `for` untuk melakukan pencarian dengan algoritma sequential searching. Kode melakukan pengecekan terhadap setiap elemen dalam array secara berurutan. Apabila ditemukan elemen yang memiliki nilai sama dengan yang dicari, akan mengubah status `ketemu` menjadi benar dan menghentikan loop dengan menggunakan `break`. 
 #### Output : 
-![Guided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%203/Guided1.png)
+![Guided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%204-Searching/Guided1.png)
 
 ### 2. Buatlah sebuah project untuk melakukan pencarian data dengan menggunakan Binary Search
 
@@ -138,7 +138,7 @@ Setelah selesai memeriksa nilai `b_flag`:
    - Jika `b_flag` masih 0, yang berarti elemen yang dicari tidak ditemukan dalam array, maka akan mencetak pesan bahwa data tidak ditemukan.
 
 #### Output : 
-[gaided2]( )
+![Guided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%204-Searching/Guided2.png)
 
 ## Unguided 
 ### 1. Buatlah sebuah program untuk mencari sebuah huruf pada sebuah kalimat yang sudah di input dengan menggunakan Binary Search!
@@ -192,7 +192,7 @@ Kode Program menggunakan`#include <algorithm>` yang berfungsi untuk memasukkan f
 Pertama tama program melakukan sorting pada kalimat menggunakan fungsi sort(). Kemudian menggunakan `int binarySearch` untuk menerima dua parameter, sebuah string `kalimat` dan sebuah karakter `huruf`. Fungsi ini akan mencari `huruf` dalam `kalimat` menggunakan algoritma Binary Search dan mengembalikan posisi `huruf` jika ditemukan, atau `-1` jika tidak ditemukan.
 
 #### Output : 
-[Ungaided1]( )
+![Unguided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%204-Searching/Unguided1.png)
 
 ### 2. Buatlah sebuah program yang dapat menghitung banyaknya huruf vocal dalam sebuah kalimat!
 
@@ -220,7 +220,7 @@ int main() {
 ```
 Kode Program ini akan menghitung jumlah huruf vokal yang dimasukkan oleh user. Pertama program akan meminta user memasukkan kalimat dengan getline() . Kemudian pada loop `for` akan melakukan perulangan sebanyak jumlah karakter dalam string `kalimat` dengan memeriksa kondisi pada `if`. Kondisi yang diperiksa adalah apakah terdapat huruf  vokal (‘a’, ‘i’, ‘u’, ‘e’,‘o’ atau ‘A’, ‘I’, ‘U’, ‘E’,‘O’) Jika ya, maka program di dalam kondisi ini akan dieksekusi.
 #### Output : 
-[Ungaided2]( )
+![Unguided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%204-Searching/Unguided2.png)
 
 ### 3. Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search
 
@@ -251,7 +251,7 @@ int main() {
 Pertama dilakukan pendefinisian array `int data`  dengan {9, 4, 1, 4, 7, 10, 5, 4, 12, 4}, `int length`,`int searchNum` dan `int count`.Kemudian akan menampilkan data dalam  `int data`. Selanjutnya pada loop `for` dilakukan perulangan sebanyak  `length` dengan membaningkan setiap elemen dengan elemen yang dicari.
 
 ### Output :
-[Ungaided3]( )
+![Unguided3](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%204-Searching/Unguided3.png)
 
 ## Kesimpulan 
 Dari Modul 4 tentang Searching  ini, dapat diambil beberapa kesimpulan yaitu:
