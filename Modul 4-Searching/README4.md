@@ -255,7 +255,9 @@ Pertama dilakukan pendefinisian array `int data`  dengan {9, 4, 1, 4, 7, 10, 5, 
 
 ## Kesimpulan 
 Dari Modul 4 tentang Searching  ini, dapat diambil beberapa kesimpulan yaitu:
-
+1. Algoritma Searching: Metode untuk menemukan elemen dalam struktur data, penting dalam ilmu komputer dan berbagai aplikasi.
+2. Sequential Search: Pencarian sederhana yang membandingkan elemen satu per satu, efektif untuk data terbatas, mudah diimplementasikan, tetapi kurang efisien untuk data besar.
+3. Binary Search: Pencarian efisien untuk data terurut menggunakan teknik divide and conquer, dengan kompleksitas waktu rata-rata dan kasus terburuk adalah
  
 ## Referensi
 [1] D. J. Mankowitz et al., “Faster sorting algorithms discovered using deep reinforcement learning,” Nature, vol. 618, pp. 257, June 2023. DOI: 10.1038/s41586-023-06004-9.
