@@ -251,7 +251,7 @@ int main() {
 Pertama dilakukan pendefinisian array `int data`  dengan {9, 4, 1, 4, 7, 10, 5, 4, 12, 4}, `int length`,`int searchNum` dan `int count`.Kemudian akan menampilkan data dalam  `int data`. Selanjutnya pada loop `for` dilakukan perulangan sebanyak  `length` dengan membaningkan setiap elemen dengan elemen yang dicari.
 
 ### Output :
-![Unguided3](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%204-Searching/Unguided3.png)
+![Unguided3](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%204-Searching/Unguided3.jpg)
 
 ## Kesimpulan 
 Dari Modul 4 tentang Searching  ini, dapat diambil beberapa kesimpulan yaitu:
