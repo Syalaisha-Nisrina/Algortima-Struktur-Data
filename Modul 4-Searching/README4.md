@@ -2,12 +2,21 @@
 <p align="center">Syalaisha Nisrina Anataya</p>
 
 ## Dasar Teori
+Algoritma Searching adalah metode fundamental dalam ilmu komputer untuk menemukan elemen dalam struktur data. Algoritma ini digunakan secara luas dalam berbagai aplikasi[1].
 
 ### 1. Sequential Search
+Sequential Search, atau Pencarian Beruntun, adalah metode pencarian sederhana yang digunakan untuk mencari data dalam sebuah array atau list[2]. 
+- Proses Pencarian: Algoritma ini membandingkan setiap elemen dalam array dengan data yang dicari, satu per satu, dari awal hingga akhir[2].
+- Efektivitas : Efektif untuk data yang terbatas atau tidak terlalu banyak, karena pencarian dilakukan secara berurutan[2].
+- Kelebihan: Sederhana dan mudah diimplementasikan; tidak memerlukan data yang terurut sebelumnya[2].
+- Kekurangan: Jika data yang dicari berada di akhir array, proses pencarian akan memakan waktu lebih lama. Untuk data yang sangat banyak, metode ini mungkin tidak efisien[2].
 
 ### 2. Binary Search
+Binary Search adalah algoritma pencarian yang efisien untuk dataset yang terurut. Algoritma ini menggunakan teknik *divide and conquer* dengan membagi dataset menjadi dua bagian pada setiap iterasi[3].
 
+- Metode Pembagian: Proses pembagian dalam Binary Search bergantung pada metode perhitungan indeks pemotongan[3]. Algoritma ini memilih indeks tengah dari dataset untuk membagi dan mencari elemen target[3].
 
+- Kompleksitas Waktu : Analisis asimtotik menunjukkan bahwa kompleksitas waktu rata-rata dan kasus terburuk dari Binary Search adalah 0(log 2 n)[3].
 ## Guided 
 ### 1. Buatlah sebuah project dengan menggunakan sequential search 
 ```C++
@@ -43,7 +52,7 @@ Pada awal program dideklarasikan array data dengan ukuran n yang bernilai 10. Ke
 
 Kemudian mengunakan loop `for` untuk melakukan pencarian dengan algoritma sequential searching. Kode melakukan pengecekan terhadap setiap elemen dalam array secara berurutan. Apabila ditemukan elemen yang memiliki nilai sama dengan yang dicari, akan mengubah status `ketemu` menjadi benar dan menghentikan loop dengan menggunakan `break`. 
 #### Output : 
-[gaided1](F:\Semester 1\ALPRO\Code\Praktikum Strukdat\Modul 4\Guided1.png)
+[gaided1]()
 
 
 ### 2. Buatlah sebuah project untuk melakukan pencarian data dengan menggunakan Binary Search
@@ -250,5 +259,8 @@ Dari Modul 4 tentang Searching  ini, dapat diambil beberapa kesimpulan yaitu:
 
  
 ## Referensi
-[1] D. A. Tara et al., “Analisis Kompleksitas Waktu Menggunakan Sorting Algorithm pada Pengaplikasian Fitur Pengurutan Harga dari Terendah dan Tertinggi di Shopee,” Jurnal Potensial, vol. 3, no. 1, pp. 68-80, 2024.
-[2] A. Karunanithi, “A Survey, Discussion and Comparison of Sorting Algorithms,” Umeå University, 2014.
+[1] D. J. Mankowitz et al., “Faster sorting algorithms discovered using deep reinforcement learning,” Nature, vol. 618, pp. 257, June 2023. DOI: 10.1038/s41586-023-06004-9.
+
+[2] Y. Rahmanto et al., “Penerapan Algoritma Sequential Search pada Aplikasi Kamus Bahasa Ilmiah Tumbuhan,” J. Buana Informatika, vol. 12, no. 1, pp. 21-30, 2021.
+
+[3] Mohammed, Adnan Saher, Şahin Emrah Amrahov, and Fatih V. Çelebi. "Interpolated binary search: An efficient hybrid search algorithm on ordered datasets." Engineering Science and Technology, an International Journal 24.5 (2021): 1072-1079.
