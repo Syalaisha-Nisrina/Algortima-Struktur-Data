@@ -61,7 +61,7 @@ Pertama tama kode program akan mendefinisikan struktur dengan nama `buku`yang me
 Selanjutnya digunakan loop untuk menampilkan informasi tentang setiap buku. Di dalam loop, digunakan cout untuk mencetak informasi buku. 
 
 #### Output : 
-![Guided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205-Struct/Guided1.png)
+![Guided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205%20-%20Struct/Guided1.png)
 
 ### 2. Buatlah sebuah struktur dengan skema seperti dibawah, isi dengan nilai kemudian jalankan.
 
@@ -143,7 +143,7 @@ int main() {
 ```
 Kode program tersebut mendefinisikan struktur dengan `struct hewan`yang berisi nama_hewan, jenis_kelamin,kembangbiak, pernafasan, tempat_hidup, karnivora. Kemudian dicabangkan dengan `struct hewan_darat` dan `struct hewan_laut`, yang masing-masing mengandung struktur `hewan` dan anggota tambahan. Kemudian pada `hewan_darat hewan1;` dan `hewan_laut hewan2;` untuk menyimpan data hewan darat dan laut. 
 #### Output : 
-![Guided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205-Struct/Guided2.png)
+![Guided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205%20-%20Struct/Guided2.png)
 
 ## Unguided 
 ### 1. Modifikasi tugas guided pertama, sehingga setiap item yang terdapat pada struct buku berupa array yang berukuran 5, isi dengan data kemudian tampilkan
@@ -212,7 +212,7 @@ Kode tersebut memodifikasi tugas pada guided pertama agar setiap item yang terda
 Kemudian diisi ke dalam variabel buku1, seperti `buku1.judul_buku[0] = "Algoritma Pemrograman";` dan seterusnya. Untuk menampilkan informasi tentang buku, digunakan loop `for`. Selanjutnya Informasi tentang buku ditampilkan menggunakan `cout << "judul_buku : " << buku1.judul_buku[i] << endl;` dan seterusnya.
 
 #### Output : 
-![Unguided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205-Struct/Unguided1.png)
+![Unguided1](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205%20-%20Struct/Unguided1.png)
 
 ### 2. Apa yang terjadi jika deklarasi variabel struct yang dibuat pada tugas guided I,berjenis Array. Bagaimana cara mengisi data dan menampilkannya ?
 
@@ -259,9 +259,9 @@ int main() {
     return 0;
 }
 ```
-Kode Program tersebut membuat array `daftar_buku` yang berisi dua buku. Array tersebut diisi dengan informasi buku pertama dan kedua dengan cara mengisi informasi buku ke dalam struct `buku` secara langsung, tetapi dilakukan untuk setiap elemen dalam array. Kemudian menggunakan loop `for` untuk menampilkan informasi tentang setiap buku dalam array. Dalam setiap iterasi loop, digunakan indeks `i` untuk mengakses dan menampilkan informasi tentang buku yang sesuai.
+Jika deklarasi variabel struct yang dibuat pada tugas guided I,berjenis Array Kode Program tersebut membuat array `daftar_buku` yang berisi dua buku. Array tersebut diisi dengan informasi buku pertama dan kedua dengan cara mengisi informasi buku ke dalam struct `buku` secara langsung, tetapi dilakukan untuk setiap elemen dalam array. Kemudian menggunakan loop `for` untuk menampilkan informasi tentang setiap buku dalam array. Dalam setiap iterasi loop, digunakan indeks `i` untuk mengakses dan menampilkan informasi tentang buku yang sesuai.
 #### Output : 
-![Unguided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205-Struct/Unguided2.png)
+![Unguided2](https://github.com/Syalaisha-Nisrina/Algortima-Struktur-Data/blob/main/Modul%205%20-%20Struct/Unguided2.png)
 
 
 ## Kesimpulan 
