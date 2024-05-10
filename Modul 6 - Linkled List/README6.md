@@ -285,8 +285,9 @@ Kode program merepresentasikan atribut `data`dan `next` oleh *Struct Node*. Bebe
 - Fungsi `ubahDepan(1)`, `ubahTengah(11,2)`, dan `ubahBelakang(8)` untuk mengubahan data pada node pertama, node di posisi 2 dengan 11, dan node terakhir dengan 8.
 - Fungsi `clearList()`  untuk menghapus semua node dalam list, dan `tampil()`  untuk mencetak semua data dalam list.
 
-#### Output : ![alt text](Guided1.png)
-![Guided1]
+#### Output : 
+![alt text](Guided1.png)
+
 
 ### 2. Latihan Double Linked List
 
@@ -425,10 +426,10 @@ Node pada kode program ini didefinisikan oleh *Class Node*yang terdri dari`data`
 
 Selanjutnya, *Class Doubly Linked List* terdiri dari `head`  dan `tail`. Selain itu, Class juga dilengkapi dengan beberapa metode untuk melakukan operasi pada list, seperti `push(int data)` untuk menambahkan node baru di awal list, `pop()` untuk menghapus node pertama dari list, `update(int oldData, int newData)` untuk mencari dan mengganti data dalam node, `deleteAll()` untuk menghapus semua node dalam list, dan `display()` untuk mencetak semua data dalam list ke layar.
 
-#### Output : !
-[alt text](image.png)
-![alt text](image.png)
-![Guided2]
+#### Output : 
+![alt text](Guided2.png)
+![alt text](Guided2(2).png)
+
 
 ## Unguided 
 ### 1. Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:
@@ -635,17 +636,21 @@ f. Fungsi `tampilkan` untuk menampilkan semua data dalam linked list. Fungsi ini
 g. Fungsi `main`untukmenampilkn operasi yang dapat dilakukann seperti menambah, menghapus, mengupdate, dan menampilkan data.
 
 #### Output : 
-![alt text](image.png)
-![alt text](image.png)
-![Unguided1]
+![alt text](Unguided1.png)
+![alt text](Unguided1(2).png)
 
 ### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga.
-Nama Produk	Harga
-Originote	60.000
-Somethinc	150.000
-Skintific	100.000
-Wardah	50.000
-Hanasui	30.000
+Nama Produk	 Harga
+
+Originote	 60.000
+
+Somethinc	 150.000
+
+Skintific	 100.000
+
+Wardah	     50.000
+
+Hanasui     30.000
 
 Case:
 1.	Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific
@@ -663,11 +668,16 @@ Toko Skincare Purwokerto
 8.	Exit
 Pada menu 7, tampilan akhirnya akan menjadi seperti dibawah ini :
 
-Nama Produk	Harga
+Nama Produk	Harga 
+
 Originote	60.000
+
 Somethinc	150.000
+
 Azarine	65.000
+
 Skintific	100.000
+
 Cleora	55.000
 
 ```C++
@@ -906,7 +916,7 @@ h. Fungsi `tampilkanMenu`  untuk menampilkan menu interaktif untuk pengguna, tet
 
 i. Fungsi `main()` untuk menampilkan menu opsi untuk dipilih pengguna. Opsinya termasuk menambah, memperbarui, dan menghapus node, serta menampilkan data dalam daftar tertaut. 
 #### Output : 
-![Unguided2]
+![alt text](Unguided2.png)
 
 
 ## Kesimpulan 
